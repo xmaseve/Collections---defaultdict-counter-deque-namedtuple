@@ -57,3 +57,8 @@ Yi = human(name='Yi', age=28, job='Graduate Student')
 print Yi
 print Yi.age
 print Yi._asdict() #convert to dict
+
+#the usage of enumerate
+fruits = ['apple', 'banana', 'grapes', 'pear']
+for c, fruit in enumerate(fruits, 1):
+    print(c, fruit)
